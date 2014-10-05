@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="axS-Yh-UkO">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--uitleg-->
+        <scene sceneID="Ktn-uA-SU3">
+            <objects>
+                <viewController id="82n-be-4CV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="uitleg" id="DtJ-7z-e8I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q9A-dY-xRr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="-60"/>
+        </scene>
+        <!--Spel spelen-->
+        <scene sceneID="khL-96-RqH">
+            <objects>
+                <viewController id="axS-Yh-UkO" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zw9-hV-xrq"/>
+                        <viewControllerLayoutGuide type="bottom" id="1aZ-WR-SXx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xmN-0t-Mhs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E8D-hG-YD8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.83394451530000002" green="0.35741953650000002" blue="0.26356178409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Spel spelen" id="5jZ-01-q9L"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="achtergrond.png" translatesAutoresizingMaskIntoConstraints="NO" id="we6-Kb-2r8">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tab To Start" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsB-YJ-epW">
+                                <rect key="frame" x="120" y="149" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Score: 000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQt-iW-UWU">
+                                <rect key="frame" x="120" y="199" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KOEPEMCO E APP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVY-KV-Ysj">
+                                <rect key="frame" x="120" y="103" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vis2.png" translatesAutoresizingMaskIntoConstraints="NO" id="FAL-Fu-q13">
+                                <rect key="frame" x="227" y="301" width="66" height="65"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="vissen" image="vis1.png" translatesAutoresizingMaskIntoConstraints="NO" id="YKu-k0-WJ3">
+                                <rect key="frame" x="145" y="301" width="66" height="65"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oranje.png" translatesAutoresizingMaskIntoConstraints="NO" id="AU9-2h-85X">
+                                <rect key="frame" x="0.0" y="47" width="320" height="37"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oranje.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgV-2h-ugJ">
+                                <rect key="frame" x="0.0" y="441" width="320" height="37"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oag-YL-0Yi">
+                                <rect key="frame" x="89" y="446" width="231" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bol1.png" translatesAutoresizingMaskIntoConstraints="NO" id="F3Q-fA-A0g">
+                                <rect key="frame" x="96" y="228" width="43" height="39"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Spel spelen" id="HVQ-Ds-t9D"/>
+                    <connections>
+                        <outlet property="bottom" destination="AU9-2h-85X" id="Kn2-zc-MnO"/>
+                        <outlet property="intro1" destination="AVY-KV-Ysj" id="dkN-3s-Wnb"/>
+                        <outlet property="intro2" destination="AsB-YJ-epW" id="JrX-89-9Qc"/>
+                        <outlet property="intro3" destination="HQt-iW-UWU" id="Nn8-Sq-lVs"/>
+                        <outlet property="rond1" destination="F3Q-fA-A0g" id="mYu-JC-gFI"/>
+                        <outlet property="score" destination="oag-YL-0Yi" id="sW3-7O-TtO"/>
+                        <outlet property="top" destination="jgV-2h-ugJ" id="J0O-0l-qne"/>
+                        <outlet property="vis1" destination="YKu-k0-WJ3" id="zvi-v0-DdZ"/>
+                        <outlet property="vis2" destination="FAL-Fu-q13" id="xp9-93-5Yd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KNR-tV-xSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="607"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="achtergrond.png" width="440" height="663"/>
+        <image name="bol1.png" width="50" height="49"/>
+        <image name="oranje.png" width="440" height="46"/>
+        <image name="vis1.png" width="264" height="158"/>
+        <image name="vis2.png" width="250" height="158"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <color key="tintColor" red="0.8478555485" green="0.038617341069999998" blue="0.048932250150000002" alpha="1" colorSpace="calibratedRGB"/>
+</document>
