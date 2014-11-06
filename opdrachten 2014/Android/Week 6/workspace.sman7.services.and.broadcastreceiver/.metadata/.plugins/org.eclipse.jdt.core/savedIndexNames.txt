@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+/Users/Inge/Desktop/workspace.sman7.services.and.broadcastreceiver/.metadata/.plugins/org.eclipse.jdt.core
+2177090493.index
+141716792.index
+591243230.index
+2523293557.index
+3541498792.index
+2254322160.index
+1003250759.index

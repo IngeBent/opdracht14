@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="priorities">
+        <item>Must Have</item>
+        <item>Should Have</item>
+        <item>Could Have</item>
+        <item>Would Have</item>
+    </string-array>
+
+</resources>

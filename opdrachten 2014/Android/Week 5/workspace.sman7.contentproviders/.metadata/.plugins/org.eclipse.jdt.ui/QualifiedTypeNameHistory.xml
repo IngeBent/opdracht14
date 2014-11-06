@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.fhict.contactreader.ContactLoaderTask"/>
+<fullyQualifiedTypeName name="org.fhict.contactreader.OnContactsLoadedListener"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.id"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="android.content.ContentResolver"/>
+<fullyQualifiedTypeName name="android.provider.Contacts"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.RawContacts"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.RawContacts.Entity"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.CommonDataKinds.Email"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.CommonDataKinds"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.CommonDataKinds.Contactables"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.CommonDataKinds.Identity"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.Contacts.Entity"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="org.fhict.contactreader.MainActivity"/>
+<fullyQualifiedTypeName name="de.vogella.android.todos.contentprovider.MyTodoContentProvider"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+</qualifiedTypeNameHistroy>

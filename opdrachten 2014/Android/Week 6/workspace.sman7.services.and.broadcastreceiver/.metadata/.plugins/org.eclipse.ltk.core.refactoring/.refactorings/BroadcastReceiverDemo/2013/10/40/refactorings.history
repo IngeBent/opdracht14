@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DemoBroadcastReceiver.java&apos; to &apos;LocationSpider/src/com.benziedroid.locationspider&apos;&#x0A;- Original project: &apos;BroadcastReceiverDemo&apos;&#x0A;- Destination element: &apos;LocationSpider/src/com.benziedroid.locationspider&apos;&#x0A;- Original element: &apos;org.fhict.receiverdemo.DemoBroadcastReceiver.java&apos;" description="Copy compilation unit" destination="=LocationSpider/src&lt;com.benziedroid.locationspider" element1="/src&lt;org.fhict.receiverdemo{DemoBroadcastReceiver.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1380737938156" units="1" version="1.0"/>
+</session>
