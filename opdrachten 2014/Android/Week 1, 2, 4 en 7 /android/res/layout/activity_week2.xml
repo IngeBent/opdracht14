@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    tools:context="com.example.android.week2" >
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+            android:text="start" />
+
+        <Button
+            android:id="@+id/btnFragment1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:onClick="onSelectFragment"
+            android:text="first" />
+
+        <Button
+            android:id="@+id/btnFragment2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:onClick="onSelectFragment"
+            android:text="Second" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_placeholder"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.MainActivity" >
+
+     <item
+        android:id="@+id/week1"
+        android:orderInCategory="100"
+        android:title="@string/week1"
+        app:showAsAction="always"/>
+     
+      <item
+        android:id="@+id/week2"
+        android:orderInCategory="100"
+        android:title="@string/week2"
+        app:showAsAction="always"/>
+      
+        <item
+        android:id="@+id/week4"
+        android:orderInCategory="100"
+        android:title="@string/week4"
+        app:showAsAction="always"/>
+        
+        <item
+        android:id="@+id/week7"
+        android:orderInCategory="100"
+        android:title="@string/week7"
+        app:showAsAction="always"/>
+     
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="about"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ic_launcher"
+        android:icon="@drawable/ic_launcher"
+        android:title=""
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>

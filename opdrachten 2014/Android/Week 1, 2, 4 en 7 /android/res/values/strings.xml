@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="week1">Week1</string>
+    <string name="week2">Week2</string>
+    <string name="week4">Week4</string>
+    <string name="about">About</string>
+    <string name="week7">Week 7</string>
+    <string name="week1_title">Week 1</string>
+    <string name="week2_title">Week 2</string>
+    <string name="week4_title">Week 4</string>
+    <string name="week7_title">Week 7</string>
+    <string name="button_label">Download here!</string>
+    <string name="image_description">image verschijnt hier</string>
+    <string name="title_activity_week3">Week4</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_week7">Week7</string>
+
+</resources>
